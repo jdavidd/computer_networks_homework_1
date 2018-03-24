@@ -37,14 +37,21 @@ Folosind docker-compose up -d porniti toate containerele pe care le-ati definit 
 Pentru a testa comenzile sau pentru a vedea log-urile si output-ul containerelor, utilizati:
 
 docker-compose logs tn1
+
 docker-compose logs rt1
+
 docker-compose logs rt2
+
 docker-compose logs rt3 rt4
 
 Sau puteti redirecta continutul log-urilor in fisiere separate pe care le puteti deschide ulterior:
 
 docker-compose logs rt1 > logs_rt1.log
+
 docker-compose logs rt2 > logs_rt2.log
+
 docker-compose logs rt3 > logs_rt3.log
+
 docker-compose logs rt4 > logs_rt4.log
+
 docker-compose logs tn1 > logs_tn1.log
